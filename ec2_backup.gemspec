@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Ec2Backup::VERSION
   spec.authors       = ["Ben Cates"]
   spec.email         = ["ben@ideum.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Command line tool for snapshotting ec2 instances}
+  spec.summary       = %q{Command line tool for snapshotting ec2 instances}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec", "~> 2.13"
 end
